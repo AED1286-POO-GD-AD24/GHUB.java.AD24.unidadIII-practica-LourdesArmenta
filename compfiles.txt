@@ -1,3 +1,6 @@
+./editorial/Libro.java
+./editorial/Publicacion.java
+./editorial/Revista.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
 ./persona/Empleado.java
