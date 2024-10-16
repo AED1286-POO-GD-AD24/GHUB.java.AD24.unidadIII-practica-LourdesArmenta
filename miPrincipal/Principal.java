@@ -1,7 +1,7 @@
 package miPrincipal;
 import persona.*;
 import editorial.*;
-
+import empleado.*;
 
 public class Principal {
    
@@ -45,7 +45,7 @@ public class Principal {
         System.out.println("Sueldo de Empleado 1:"+empleado1.getSalario());
         empleado1.saludo();
         */
-        
+        /* 
         Publicacion publicacion1 = new Publicacion();
 
         System.out.println("Editorial de publicacion: "+publicacion1.getEditorial());
@@ -77,6 +77,27 @@ public class Principal {
         System.out.println("Fecha de la Publicacion :"+revista3.getFecha());
         System.out.println("Numero de publicaciones por año: "+revista3.getNumPorAnio());
         System.out.println("Numero de ejemplares en circulacion: "+revista3.getCirculacion());
+        */
+
+        empleado.Empleado empleado1 = new empleado.Empleado();
+        System.out.println("Nombre de empleado: "+empleado1.getNombre());
+        System.out.println("Edad de empleado: "+empleado1.getEdad());
+        System.out.println("Tipo Relacion Laboral: "+empleado1. getTipoRelacionLaboral());
+
+        EmpleadoSueldoFijo empsf1= new EmpleadoSueldoFijo("Maria",25,"Confianza");
+        System.out.println("Nombre de empleado: "+empsf1.getNombre());
+        System.out.println("Edad de empleado"+empsf1.getEdad());
+        System.out.println("Tipo Relacion Laboral: "+empsf1. getTipoRelacionLaboral());
+        System.out.println("Sueldo: "+empsf1.getSueldoFijo());
+
+
+
+
+
+
+
+
+
 
 
 

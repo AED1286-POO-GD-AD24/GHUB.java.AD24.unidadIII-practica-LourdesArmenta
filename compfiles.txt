@@ -3,6 +3,12 @@
 ./editorial/Revista.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
+./empleado/EmpleadoComercial.java
+./empleado/EmpleadoIndustrial.java
+./empleado/Empleado.java
+./empleado/EmpleadoComision.java
+./empleado/EmpleadoSueldoFijo.java
+./empleado/EmpleadoPorHoras.java
 ./persona/Empleado.java
 ./persona/Estudiante.java
 ./persona/Persona.java
