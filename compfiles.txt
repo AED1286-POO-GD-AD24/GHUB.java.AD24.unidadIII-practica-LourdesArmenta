@@ -9,6 +9,8 @@
 ./empleado/EmpleadoComision.java
 ./empleado/EmpleadoSueldoFijo.java
 ./empleado/EmpleadoPorHoras.java
+./sobrecarga/VentanaEspecial.java
+./sobrecarga/Ventana.java
 ./persona/Empleado.java
 ./persona/Estudiante.java
 ./persona/Persona.java

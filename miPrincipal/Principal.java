@@ -2,6 +2,7 @@ package miPrincipal;
 import persona.*;
 import editorial.*;
 import empleado.*;
+import sobrecarga.*;
 
 public class Principal {
    
@@ -79,6 +80,8 @@ public class Principal {
         System.out.println("Numero de ejemplares en circulacion: "+revista3.getCirculacion());
         */
 
+        /* 
+
         empleado.Empleado empleado1 = new empleado.Empleado();
         System.out.println("Nombre de empleado: "+empleado1.getNombre());
         System.out.println("Edad de empleado: "+empleado1.getEdad());
@@ -137,6 +140,17 @@ public class Principal {
         System.out.println("Relacion Laboral de Empleado: "+empph1.getTipoRelacionLaboral());
         System.out.println("Tarifa por Horal del Empleado: "+empph1.getTarifaPorHora());
         System.out.println("Horas trabajadas del Empleado: "+empph1.getHorasTrabajadas());
+
+        */
+        Ventana w = new Ventana();
+        VentanaEspecial mv = new VentanaEspecial();
+         mv.copiar("****",10,15); //metodo del padre Ventana
+         mv.copiar(w); //metodo el padre Ventaba
+         mv.copiar('.',5,10,10); //metodo de hijo
+         mv.tipo();
+         
+
+
 
 
 
