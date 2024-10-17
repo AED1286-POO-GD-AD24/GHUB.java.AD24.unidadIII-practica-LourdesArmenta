@@ -90,6 +90,54 @@ public class Principal {
         System.out.println("Tipo Relacion Laboral: "+empsf1. getTipoRelacionLaboral());
         System.out.println("Sueldo: "+empsf1.getSueldoFijo());
 
+        EmpleadoPorHoras empph1= new EmpleadoPorHoras();
+        System.out.println("Nombre de Empleado: "+empph1.getNombre());
+        System.out.println("Edad del Empleado: "+empph1.getEdad());
+        System.out.println("Relacion Laboral de Empleado: "+empph1.getTipoRelacionLaboral());
+        System.out.println("Tarifa por Horal del Empleado: "+empph1.getTarifaPorHora());
+        System.out.println("Horas trabajadas del Empleado: "+empph1.getHorasTrabajadas());
+
+        System.out.println();
+
+        EmpleadoPorHoras empph2 = new EmpleadoPorHoras(100,40);
+        System.out.println("Nombre de Empleado: "+empph2.getNombre());
+        System.out.println("Edad del Empleado: "+empph2.getEdad());
+        System.out.println("Relacion Laboral de Empleado: "+empph2.getTipoRelacionLaboral());
+        System.out.println("Tarifa por Horal del Empleado: "+empph2.getTarifaPorHora());
+        System.out.println("Horas trabajadas del Empleado: "+empph2.getHorasTrabajadas());
+
+        System.out.println();
+
+        EmpleadoPorHoras empph3 = new EmpleadoPorHoras("Juan",24,"Base");
+        System.out.println("Nombre de Empleado: "+empph3.getNombre());
+        System.out.println("Edad del Empleado: "+empph3.getEdad());
+        System.out.println("Relacion Laboral de Empleado: "+empph3.getTipoRelacionLaboral());
+        System.out.println("Tarifa por Horal del Empleado: "+empph3.getTarifaPorHora());
+        System.out.println("Horas trabajadas del Empleado: "+empph3.getHorasTrabajadas());
+
+        System.out.println();
+
+        EmpleadoPorHoras empph4 = new EmpleadoPorHoras("Luis",30,"eventual",50,40);
+        System.out.println("Nombre de Empleado: "+empph4.getNombre());
+        System.out.println("Edad del Empleado: "+empph4.getEdad());
+        System.out.println("Relacion Laboral de Empleado: "+empph4.getTipoRelacionLaboral());
+        System.out.println("Tarifa por Horal del Empleado: "+empph4.getTarifaPorHora());
+        System.out.println("Horas trabajadas del Empleado: "+empph4.getHorasTrabajadas());
+
+        System.out.println();
+
+        empph1.setNombre("Alberto");
+        empph1.setEdad(19);
+        empph1.setTipoRelacionLaboral("Eventual");
+        empph1.setTarifaPorHora(35);
+        empph1.setHorasTrabajadas(50);
+
+        System.out.println("Nombre de Empleado: "+empph1.getNombre());
+        System.out.println("Edad del Empleado: "+empph1.getEdad());
+        System.out.println("Relacion Laboral de Empleado: "+empph1.getTipoRelacionLaboral());
+        System.out.println("Tarifa por Horal del Empleado: "+empph1.getTarifaPorHora());
+        System.out.println("Horas trabajadas del Empleado: "+empph1.getHorasTrabajadas());
+
 
 
 
