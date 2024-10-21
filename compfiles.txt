@@ -3,6 +3,10 @@
 ./editorial/Revista.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
+./figuras/ClienteFiguras.java
+./figuras/Circulo.java
+./figuras/Cuadrado.java
+./figuras/ObjGeometrico.java
 ./empleado/EmpleadoComercial.java
 ./empleado/EmpleadoIndustrial.java
 ./empleado/Empleado.java
