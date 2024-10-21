@@ -1,6 +1,6 @@
 package figuras;
 
-public class ObjGeometrico {
+ class ObjGeometrico {
     protected double px,py; //miembros por omision (amigos)
     public ObjGeometrico(){
         px=0;

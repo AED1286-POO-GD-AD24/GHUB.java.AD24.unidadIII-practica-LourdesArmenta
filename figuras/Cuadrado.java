@@ -1,6 +1,6 @@
 package figuras;
 
-public class Cuadrado extends ObjGeometrico{
+class Cuadrado extends ObjGeometrico{
     private double x1,y1;
     public Cuadrado(double xc,double yc, double t1, double t2){
         super(xc,yc);//llama al contructos de la clasea base
