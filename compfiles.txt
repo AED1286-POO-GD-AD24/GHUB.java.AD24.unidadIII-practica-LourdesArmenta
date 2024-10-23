@@ -1,6 +1,9 @@
 ./editorial/Libro.java
 ./editorial/Publicacion.java
 ./editorial/Revista.java
+./fecha/Fecha.java
+./fecha/FechaDetallada.java
+./fecha/TestFeha.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
 ./figuras/ClienteFiguras.java
